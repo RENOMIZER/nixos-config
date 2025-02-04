@@ -10,6 +10,11 @@ let cfg = config.git; in {
       enable = true;
       userEmail = "94466218+RENOMIZER@users.noreply.github.com";
       userName  = "RENOMIZER";
+
+      signing = {
+        signByDefault = true;
+        key = "6BFB9F803CD176B5";
+      };
     };
   };
 }

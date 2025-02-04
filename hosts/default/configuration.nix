@@ -16,6 +16,7 @@
   polkit.enable = true;
   zapret.enable = true;
   thunar.enable = true;
+  gnupg.enable  = true;
   tor.enable    = true;
 
   # Enable programs

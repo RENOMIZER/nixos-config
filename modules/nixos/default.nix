@@ -9,6 +9,7 @@
     ./polkit/polkit.nix
     ./zapret/zapret.nix
     ./thunar/thunar.nix
+    ./gnupg/gnupg.nix
     ./tor/tor.nix
   ];
 }
