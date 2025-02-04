@@ -1,0 +1,9 @@
+[pyprland]
+plugins = ["wallpapers", "menubar"]
+
+[wallpapers]
+path = "~/Изображения/Wallpapers/"
+interval = 30
+
+[menubar]
+command = "ags run"
