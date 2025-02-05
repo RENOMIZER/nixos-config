@@ -53,7 +53,7 @@
     
     # Media
     ffmpeg-headless
-    strawberry
+    deadbeef-with-plugins
     loupe
     mpv
 
