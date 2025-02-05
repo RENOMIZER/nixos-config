@@ -36,6 +36,7 @@
 
     # Dev
     vscodium
+    gcc
     gh
 
     # Themes

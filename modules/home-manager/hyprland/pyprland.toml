@@ -7,3 +7,4 @@ interval = 30
 
 [menubar]
 command = "ags run"
+monitors = ["eDP-1"]

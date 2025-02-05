@@ -16,6 +16,10 @@ function reboot() {
     exec("reboot")
 }
 
+function logout() {
+    exec("hyprctl dispatch exit")
+}
+
 export default function Shutdown() {
     const width = Variable(1000)
 
@@ -45,6 +49,9 @@ export default function Shutdown() {
                     </button>
                     <button tooltipText={"Перезагрузка"} onClick={reboot}>
                         <icon icon="system-reboot"/>
+                    </button>
+                    <button tooltipText={"Выйти"} onClick={logout}>
+                        <icon icon="system-log-out"/>
                     </button>
                 </box>
                 <eventbox expand onClick={hide} />
